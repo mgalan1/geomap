@@ -39,7 +39,7 @@ def process_in():
     coord_lis = []
     
     # Geocoder from OpenStreetMap
-    geolocate = Nominatim(user_agent= "#") #YOUR EMAIL HERE
+    geolocate = Nominatim(user_agent= "YOUR EMAIL HERE")
 
     # Split name and location
     for line in op_file:
